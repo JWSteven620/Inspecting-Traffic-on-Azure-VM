@@ -32,9 +32,9 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 <p>
 <img src="https://i.imgur.com/7pbezun.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>
+
 -Once logged in download Wireshark and Install wireshark
-</h2>
+
 <br />
 
 <p>
