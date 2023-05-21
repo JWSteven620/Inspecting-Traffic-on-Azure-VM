@@ -33,7 +33,7 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 <img src="https://i.imgur.com/7pbezun.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
--Once logged in download Wireshark and Install wireshark
+- Once logged in download Wireshark and Install wireshark
 
 <br />
 
@@ -41,7 +41,7 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 <img src="https://i.imgur.com/dXEEbxj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
--Open wireshark and proceed to capture traffic by selecting Ethernet
+- Open wireshark and proceed to capture traffic by selecting Ethernet
 
 <br />
 
@@ -49,11 +49,11 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 <img src="https://i.imgur.com/3HM8ekU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
-Open Command Prompt and use the following commands
+- Open Command Prompt and use the following commands
   -ping (private IP of unbuntu vm) 
   -nslookup disney.com
   -ipconfig /renew
-Once you entered all three commands stop wireshark from capturing packets 
+- Once you entered all three commands stop wireshark from capturing packets 
 
 <br />
 
@@ -61,8 +61,8 @@ Once you entered all three commands stop wireshark from capturing packets
 <img src="https://i.imgur.com/dxuLUDm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
--In the filter in wireshark type ICMP
--This is the traffic produced by the ping  
+- In the filter in wireshark type ICMP
+- This is the traffic produced by the ping  
 
 <br />
 
@@ -70,8 +70,8 @@ Once you entered all three commands stop wireshark from capturing packets
 <img src="https://i.imgur.com/w8Wu7In.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
--In the filter in wireshark type DHCP
--This is the traffic produced by the nslookup 
+- In the filter in wireshark type DHCP
+- This is the traffic produced by the nslookup 
 
 <br />
 
@@ -79,7 +79,7 @@ Once you entered all three commands stop wireshark from capturing packets
 <img src="https://i.imgur.com/uZizIwv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 
--In the filter in wireshark type DNS
--This is the traffic produced by the ipconfig /renew
+- In the filter in wireshark type DNS
+- This is the traffic produced by the ipconfig /renew
 
 <br />
