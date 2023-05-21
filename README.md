@@ -50,7 +50,7 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 </p>
 
 - Open Command Prompt and use the following commands
-  - ping (private IP of unbuntu vm) 
+  - ping (private IP of unbuntu VM) 
   - nslookup disney.com
   - ipconfig /renew
 - Once you entered all three commands stop wireshark from capturing packets 
