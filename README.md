@@ -23,10 +23,10 @@ This tutorial entails the analysis of network traffic to and from Azure Virtual 
 <p>
 <img src="https://i.imgur.com/v64tCNc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
-<h2>
+
 - Create both VMs in Azure and make sure they are on the same network
 - Login the Windows VM and Download wireshark
-</h2>
+
 <br />
 
 <p>
